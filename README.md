@@ -18,7 +18,7 @@ This project uses thousands of real messages that were sent during disaster even
 
 The main goal of this project is to build a model to categorize these events so that one can send the messages to an appropriate disaster relief agency. Also, it includes a web app as a final product where an emergency worker can input a new message and get classification results. 
 
-<a name='builtwith>
+<a name='builtwith'>
          
 #### Built With
 - Bootstrap
