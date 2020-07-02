@@ -41,7 +41,7 @@ The main goal of this project is to build a model to categorize these events so 
 	- train_classifier.py: script of Machine learning pipeline to predict classification for 36 categories
 	- classifier.pkl: output of the machine learning pipeline, which saves the model to a pickle file
 
-3. [app](https://github.com/Jiahuili858/Disaster-Response-Pipeline/tree/master/app) folder
+3. [app](https://github.com/Jiahuili858/Disaster-Response-Pipeline/tree/master/app) folder:
 	- run.py: flask file to run app
 	- templates includes two html files for the web app
 
@@ -77,8 +77,8 @@ Here is the overall model performance:
     - To run ML pipeline that trains classifier and saves
         <br />```python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl```
 
-2. Run the following command in the app's directory to run your web app.
-    ```python run.py```
+2. Run the following command in the project's root directory to run your web app.
+    ```python app/run.py```
 
 3. Go to http://0.0.0.0:3001/
 
