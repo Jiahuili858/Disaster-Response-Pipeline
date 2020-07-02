@@ -11,7 +11,6 @@
 6. [Licensing, Authors, and Acknowledgements](#ack)
 7. [Instructions](#instructions)
 
-<a name="projectDes"/>
 ## About this project
 
 This project uses thousands of real messages that were sent during disaster events. Each message is falling into several categories and there are 36 categories in total. Example of categories includes Food, Water, Money, Shelter, etc..
@@ -19,6 +18,7 @@ This project uses thousands of real messages that were sent during disaster even
 The main goal of this project is to build a model to categorize these events so that one can send the messages to an appropriate disaster relief agency. Also, it includes a web app as a final product where an emergency worker can input a new message and get classification results. 
 
 <a name='builtwith'>
+
 ### Built With
 - Bootstrap
 - JQuery
@@ -26,6 +26,7 @@ The main goal of this project is to build a model to categorize these events so 
 - Flask
 
 <a name='fileDes'>
+    
 ## File Description
 
 1. [data] foler:
@@ -45,6 +46,7 @@ The main goal of this project is to build a model to categorize these events so 
 4. Individual Output Performance.csv: saved the model performance (accuracy, precision, recall, f1-score) of each output category
 
 <a name='results'>
+
 ## Results
 - Average accuracy:  0.949773285872
 - Average precision:  0.941253658577
@@ -59,10 +61,12 @@ The main goal of this project is to build a model to categorize these events so 
 3. Use complex features, such as n-grams 
 
 <a name='ack'>
+
 ## Licensing, Authors, and Acknowledgements
 Data is from Figure Eight and the starter code is provided by Udacity.
 
 <a name='instructions'>
+
 ## Instructions
 
 1. Run the following commands in the project's root directory to set up your database and model.
