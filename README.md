@@ -3,13 +3,14 @@
 
 ## Table of Contents
 1. [About this Project](#aboutthisproject)
-- [Built With](#builtwith)
-2. [Project Description](#projectDes)
-3. [File Descriptions](#fileDes)
-4. [Results](#results)
-5. [Future Improvements](#improvements)
-6. [Licensing, Authors, and Acknowledgements](#ack)
-7. [Instructions](#instructions)
+    - [Built With](#builtwith)
+2. [File Descriptions](#fileDes)
+3. [Results](#results)
+4. [Future Improvements](#improvements)
+5. [Licensing, Authors, and Acknowledgements](#ack)
+6. [Instructions](#instructions)
+
+<a name='aboutthisproject'>
 
 ## About this project
 
@@ -17,8 +18,9 @@ This project uses thousands of real messages that were sent during disaster even
 
 The main goal of this project is to build a model to categorize these events so that one can send the messages to an appropriate disaster relief agency. Also, it includes a web app as a final product where an emergency worker can input a new message and get classification results. 
 
-
-### Built With
+<a name='builtwith>
+         
+#### Built With
 - Bootstrap
 - JQuery
 - Plotly 
@@ -79,8 +81,6 @@ Data is from Figure Eight and the starter code is provided by Udacity.
     ```python run.py```
 
 3. Go to http://0.0.0.0:3001/
-
-
 
 
 
