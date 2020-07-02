@@ -2,7 +2,7 @@
 >  Utilize disaster data from Figure Eight to build a model for an API that classifies disaster messages.
 
 ## Table of Contents
-1. [About this Project](#about)
+1. [About this Project](#aboutthisproject)
 - [Built With](#builtwith)
 2. [Project Description](#projectDes)
 3. [File Descriptions](#fileDes)
@@ -17,7 +17,6 @@ This project uses thousands of real messages that were sent during disaster even
 
 The main goal of this project is to build a model to categorize these events so that one can send the messages to an appropriate disaster relief agency. Also, it includes a web app as a final product where an emergency worker can input a new message and get classification results. 
 
-<a name='builtwith'>
 
 ### Built With
 - Bootstrap
@@ -29,17 +28,17 @@ The main goal of this project is to build a model to categorize these events so 
     
 ## File Description
 
-1. [data] foler:
+1. [data](https://github.com/Jiahuili858/Disaster-Response-Pipeline/tree/master/data) foler:
 - disaster_catogories.csv: dataset contains all the categories
 - disaster_messages.csv: dataset contains all the messages 
 - process_data.py: script of ETL pipeline to process data
 - DisasterResponse.db: output of the ETL pipeline, which stores the clean data (including both categories and messages) 
 
-2. [models] folder:
+2. [models](https://github.com/Jiahuili858/Disaster-Response-Pipeline/tree/master/models) folder:
 - train_classifier.py: script of Machine learning pipeline to predict classification for 36 categories
 - classifier.pkl: output of the machine learning pipeline, which saves the model to a pickle file
 
-3. [app] folder
+3. [app](https://github.com/Jiahuili858/Disaster-Response-Pipeline/tree/master/app) folder
 - run.py: flask file to run app
 - templates includes two html files for the web app
 
